@@ -1,0 +1,13 @@
+<h1>Home</h1>
+<a href="/#/new">New Cat</a>
+
+<div class="row well well-lg" ng-repeat="cat in cats">
+  <div class="col-sm-3">
+    <img class="img-responsive" ng-src="{{ cat.image }}" alt="" />
+  </div>
+  <div class="col-sm-9">
+    <h2>{{ cat.name }}</h2>
+    <p>{{ cat.bio }}</p>
+    <p>Likes: {{ cat.likes }}</p>
+  </div>
+</div>
