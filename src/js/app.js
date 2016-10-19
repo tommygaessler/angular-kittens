@@ -9,7 +9,8 @@
       'ngRoute',
       'myApp.config',
       'myApp.components.main',
-      'myApp.components.new'
+      'myApp.components.new',
+      'myApp.components.single'
     ]);
 
 })();

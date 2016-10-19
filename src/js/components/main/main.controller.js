@@ -10,7 +10,6 @@
 
   function mainController($scope, $rootScope) {
     /*jshint validthis: true */
-    
   }
 
 })();

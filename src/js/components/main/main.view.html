@@ -9,5 +9,8 @@
     <h2>{{ cat.name }}</h2>
     <p>{{ cat.bio }}</p>
     <p>Likes: {{ cat.likes }}</p>
+    <a href="/#/{{ $index }}">New Comment</a>
+    <p>Comments:</p>
+    <p ng-repeat=" comment in cat.comments">{{ comment }}</p>
   </div>
 </div>
